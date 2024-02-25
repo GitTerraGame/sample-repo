@@ -1,0 +1,4 @@
+include:
+  - component: gitlab.com/gitterra/GitTerra/gitterra@0.0.2
+    inputs:
+      stage: deploy
