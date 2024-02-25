@@ -1,2 +1,2 @@
 include:
-  - component: gitlab.com/gitterra/GitTerra/gitterra@0.0.4
+  - component: gitlab.com/gitterra/GitTerra/gitterra@0.0.5
