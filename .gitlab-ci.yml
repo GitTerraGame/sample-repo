@@ -1,11 +1,9 @@
-image: ruby:2.6
-
 include:
   - component: gitlab.com/gitterra/GitTerra/gitterra@~latest
 
 stages:
   - build
-  - play
+  - play GitTerra
 
 build:
   stage: build
