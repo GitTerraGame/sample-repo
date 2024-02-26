@@ -1,5 +1,5 @@
 include:
-  - component: gitlab.com/gitterra/GitTerra/gitterra@0.0.10
+  - component: gitlab.com/gitterra/GitTerra/gitterra@~latest
 
 stages:
   - play
