@@ -9,7 +9,5 @@ jobs:
   play-gitterra:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello, there!"
-      - run: echo "Let's play GitTerra!"
-      - run: echo "What are the files we're dealing with?"
-      - run: find .
+      - name: Play GitTerra 🎮
+        uses: GitTerraGame/Play-GitTerra@0.0.1
