@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Play GitTerra 🎮
-        uses: GitTerraGame/Play-GitTerra@0.0.1
+        uses: GitTerraGame/Play-GitTerra@main
