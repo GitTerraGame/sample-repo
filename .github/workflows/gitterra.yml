@@ -1,4 +1,5 @@
 name: Play GitTerra
+run-name: Playing 🌎 GitTerra on ${{ github.repository }} 🗺️
 
 on:
   push:
