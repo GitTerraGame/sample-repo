@@ -1,0 +1,12 @@
+name: Play GitTerra
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  gitterra:
+    runs-on: node-latest
+    steps:
+      - run: echo "Hello, there!
+      - run: echo "Let's play GitTerra!"
