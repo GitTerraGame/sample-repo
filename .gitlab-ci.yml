@@ -7,4 +7,4 @@ stages:
 
 build:
   stage: build
-  script: echo "Building this test repo, whie playing GitTerra in separate stage."
+  script: echo "Building this test repo, while playing GitTerra in separate stage."
