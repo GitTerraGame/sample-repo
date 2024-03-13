@@ -8,5 +8,5 @@ jobs:
   play-gitterra:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello, there!
+      - run: echo "Hello, there!"
       - run: echo "Let's play GitTerra!"
