@@ -10,3 +10,5 @@ jobs:
     steps:
       - run: echo "Hello, there!"
       - run: echo "Let's play GitTerra!"
+      - run: echo "What are the files we're dealing with?"
+      - run: find .
