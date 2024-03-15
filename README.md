@@ -1,3 +1,5 @@
+[![we play GitTerra](https://github.com/GitTerraGame/TestRepo/actions/workflows/gitterra.yml/badge.svg)](https://gitterra.com/)
+
 # Test Repo
 
 This is a test repo that uses GitTerra CI/CD game components.
@@ -22,9 +24,7 @@ To add a badge at the top of your README, use the following markdown code:
 
 Replace `REPO-OWNER` with your GitHub username and `REPO` with your repository name.
 
-Here's a badge for this project:
-
-[![we play GitTerra](https://github.com/GitTerraGame/TestRepo/actions/workflows/gitterra.yml/badge.svg)](https://gitterra.com/)
+(see the badge at the top of this README)
 
 ## How to play
 
