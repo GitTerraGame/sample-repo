@@ -18,4 +18,4 @@ https://gitlab.com/explore/catalog/gitterra/GitTerra
 
 ## How to play
 
-How hard is this game?
+How hard is this game? New PR?
