@@ -35,8 +35,6 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: gitterra
-      - name: Prepare the map for the site
-        run: mv gitterra.html index.html
       - name: Show resulting files
         run: ls -l
       - name: Setup Pages
