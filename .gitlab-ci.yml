@@ -1,5 +1,6 @@
 include:
   - component: gitlab.com/gitterra/GitTerra/gitterra@~latest
+  - component: gitlab.com/gitterra/GitTerra/pages@~latest
 
 stages:
   - build
@@ -8,20 +9,3 @@ stages:
 build:
   stage: build
   script: echo "Building this test repo, while playing GitTerra in separate stage."
-
-pages:
-  stage: play GitTerra
-  needs: [GitTerra]
-  script:
-    - find .
-    - mkdir public/
-    - mv index.html public/
-    - mv gitterra.json public/
-  artifacts:
-    paths:
-      # The folder that contains the files to be exposed at the Page URL
-      - public
-  rules:
-    # This ensures that only pushes to the default branch will trigger
-    # a pages deploy
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
