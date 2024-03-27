@@ -19,3 +19,4 @@ https://gitlab.com/explore/catalog/gitterra/GitTerra
 ## How to play
 
 How hard is this game?
+Must be hard if that's how we test it!
