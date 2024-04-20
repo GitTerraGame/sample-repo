@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Play GitTerra 🎮
-        uses: GitTerraGame/Play-GitTerra@cache_npm_packages
+        uses: GitTerraGame/Play-GitTerra@scc_cache
