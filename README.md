@@ -19,3 +19,4 @@ https://gitlab.com/explore/catalog/gitterra/GitTerra
 ## But is it building a history?
 
 It seems like it updates today's history too!
+And remembers the past not to repeat itself!
