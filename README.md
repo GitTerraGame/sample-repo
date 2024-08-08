@@ -18,4 +18,4 @@ https://gitlab.com/explore/catalog/gitterra/GitTerra
 
 ## Bump
 
-Bumpity-bump-bump-bump!
+Bumpity-boom!
