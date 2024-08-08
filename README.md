@@ -18,4 +18,4 @@ https://gitlab.com/explore/catalog/gitterra/GitTerra
 
 ## But is it building a history?
 
-That is the question!
+It seems like it updates today's history too!
