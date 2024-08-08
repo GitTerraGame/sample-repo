@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Play GitTerra 🎮
-        uses: GitTerraGame/Play-GitTerra@timelapse
+        uses: GitTerraGame/Play-GitTerra@main
   deploy-gitterra-to-gh-pages:
     needs: play-gitterra
     environment:
