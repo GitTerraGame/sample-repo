@@ -1,6 +1,6 @@
 include:
   - component: gitlab.com/gitterra/GitTerra/gitterra@timelapse
-  - component: gitlab.com/gitterra/GitTerra/pages@~latest
+  - component: gitlab.com/gitterra/GitTerra/pages@timelapse
 
 stages:
   - build
@@ -8,4 +8,6 @@ stages:
 
 build:
   stage: build
-  script: echo "Building this test repo, while playing GitTerra in separate stage."
+  script:
+    - echo "Building this test repo, while playing GitTerra in separate stage."
+    - echo "(this is just a demo to show that you can have GitTerra run in parallel with your own build)"
