@@ -1,5 +1,5 @@
 include:
-  - component: gitlab.com/gitterra/GitTerra/gitterra@~latest
+  - component: gitlab.com/gitterra/GitTerra/gitterra@timelapse
   - component: gitlab.com/gitterra/GitTerra/pages@~latest
 
 stages:
