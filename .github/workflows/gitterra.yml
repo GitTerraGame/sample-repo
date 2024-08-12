@@ -25,6 +25,9 @@ jobs:
     steps:
       - name: Play GitTerra 🎮
         uses: GitTerraGame/Play-GitTerra@timelapse
+        with:
+          deploy-destination: https://gitterragame.github.io/TestRepo/
+
   deploy-gitterra-to-gh-pages:
     if: github.ref == 'refs/heads/main'
     needs: play-gitterra
