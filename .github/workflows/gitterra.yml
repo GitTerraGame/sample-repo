@@ -24,8 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Play GitTerra 🎮
-        uses: GitTerraGame/Play-GitTerra@main
+        uses: GitTerraGame/Play-GitTerra@timelapse
   deploy-gitterra-to-gh-pages:
+    if: github.ref == 'refs/heads/main'
     needs: play-gitterra
     environment:
       name: github-pages
