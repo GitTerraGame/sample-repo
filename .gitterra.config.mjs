@@ -1,6 +1,6 @@
 export default (config) => {
   config.timelapseLookBackPerfRun = 100;
-  // config.createTimelapse = true;
+  config.createTimelapse = true;
 
   return config;
 };
