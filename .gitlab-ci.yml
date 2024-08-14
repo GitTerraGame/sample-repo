@@ -1,7 +1,5 @@
 include:
   - component: gitlab.com/gitterra/GitTerra/gitterra@timelapse
-    inputs:
-      fetch-depth: "5"
   - component: gitlab.com/gitterra/GitTerra/pages@timelapse
 
 stages:
