@@ -1,7 +1,5 @@
 include:
   - component: gitlab.com/gitterra/GitTerra/gitterra@~latest
-    inputs:
-      deploy-destination: https://gitterragame.github.io/TestRepo/
   - component: gitlab.com/gitterra/GitTerra/pages@~latest
 
 stages:
