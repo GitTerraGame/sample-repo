@@ -25,8 +25,8 @@ jobs:
     steps:
       - name: Play GitTerra 🎮
         uses: GitTerraGame/Play-GitTerra@main
-        # with:
-        #   deploy-destination: https://gitterragame.github.io/TestRepo/
+        with:
+          deploy-destination: https://gitterragame.github.io/TestRepo/
 
   deploy-gitterra-to-gh-pages:
     if: github.ref == 'refs/heads/main'
