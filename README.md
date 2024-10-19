@@ -1,6 +1,6 @@
 [![we play GitTerra](https://github.com/GitTerraGame/TestRepo/actions/workflows/gitterra.yml/badge.svg)](https://github.com/GitTerraGame/TestRepo/actions/workflows/gitterra.yml)
 
-# Test Repo
+# Sample Repo
 
 This is a test repo that uses [GitTerra CI/CD game](https://gitterra.com/) workflows.
 
